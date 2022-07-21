@@ -337,6 +337,29 @@ template {
   margin-right: auto;
   margin-left: 108px;
 }
+.navbar-bottom {
+  background-color: #0a223d;
+}
+.navbar-menu {
+  margin: 0;
+  padding: 31px 0;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-menu__link {
+  text-decoration: none;
+  color: inherit;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.logo {
+  width: 177px;
+  height: auto;
+}
 
 .search {
   display: flex;
@@ -382,4 +405,10 @@ template {
   font-size: 14x;
   line-height: 18px;
   color: #333333;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
 }/*# sourceMappingURL=style.css.map */
