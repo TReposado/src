@@ -643,11 +643,6 @@ template {
   line-height: 19px;
 }
 
-.map {
-  width: 374px;
-  height: 213px;
-}
-
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
