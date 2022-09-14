@@ -741,6 +741,7 @@ iframe {
 }
 .reviews-slider {
   position: relative;
+  overflow: hidden;
 }
 .reviews-slider__item {
   display: flex;
